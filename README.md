@@ -9,13 +9,17 @@ Uma aplicação web de notas pessoais criadas por texto ou transcrição de audi
 
 - Transcrição de audio para texto
 - Criar e deletar notas
+- Armazenamento das notas localmente utilizando o LocalStorage do navegador.
 - Filtrar notas de acordo com palavras-chave
 
-## Stack utilizada
 
-**Front-end:** React, TailwindCSS, RadixUI
+## Tecnologias utilizadas
+
+**Front-end:** HTML, CSS, TypeScript, React, TailwindCSS e Vite. Alem disso outras ferramentas e bibliotecas como RadixUI, Sonner e date-fns.
 
 ## Rodando o projeto localmente:
+
+Certifique-se de ter o Node.js instalado em sua máquina.
 
 Clone o projeto
 
