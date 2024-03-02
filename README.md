@@ -1,27 +1,42 @@
-# React + TypeScript + Vite
+# 📑Notes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma aplicação web de notas pessoais criadas por audio ou texto. Projeto desenvolvido durante o evento NLW Expert da Rocketseat.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Transcrição de audio para texto
+- Criar e deletar notas
 
-## Expanding the ESLint configuration
+## Stack utilizada
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+**Front-end:** React, TailwindCSS, RadixUI
 
-- Configure the top-level `parserOptions` property like this:
+## Rodando localmente
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+Clone o projeto
+
+```bash
+  git clone https://github.com/sthallysson/notes-web
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Entre no diretório do projeto
+
+```bash
+  cd notes-web
+```
+
+Instale as dependências
+
+```bash
+  npm install
+```
+
+Inicie o servidor
+
+```bash
+  npm run dev
+```
+
+## Link para acesso
+
+https://projeto-anotacoes-jade.vercel.app/
